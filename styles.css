@@ -19,12 +19,12 @@ body {
 /* Estilo del letrero que se moverá */
 .letrero {
     display: inline-block;
-    font-size: 5vw; /* Tamaño del texto relativo al ancho de la pantalla */
+    font-size: 10vw; /* Aumenté el tamaño del texto a 10vw para hacerlo mucho más grande */
     padding: 10px;
     background-color: #333; /* Fondo gris oscuro del letrero */
     color: white; /* Color del texto */
     border-radius: 5px;
-    animation: movimiento 30s linear infinite; /* Animación más rápida: 7 segundos */
+    animation: movimiento 11s linear infinite; /* Animación más rápida: 7 segundos */
 }
 
 /* Animación que mueve el letrero de derecha a izquierda y lo hace regresar */
@@ -49,13 +49,13 @@ body {
 /* Ajustes de estilo para pantallas pequeñas (tabletas y teléfonos) */
 @media (max-width: 768px) {
     .letrero {
-        font-size: 6vw; /* Ajuste de tamaño del texto para pantallas más pequeñas */
+        font-size: 12vw; /* Ajuste de tamaño del texto para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .letrero {
-        font-size: 7vw; /* Ajuste de tamaño del texto para teléfonos más pequeños */
+        font-size: 14vw; /* Ajuste de tamaño del texto para teléfonos más pequeños */
     }
 }
 
